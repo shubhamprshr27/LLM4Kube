@@ -1,0 +1,100 @@
+[2024-04-16T17:53:10.123456] kubernetes - ERROR --: Pod my-otel-demo-cartservice restarted due to out-of-memory error.
+[2024-04-16T17:53:15.234567] my-otel-demo-adservice - ERROR --: Error processing request for ad ID: 12345. Database connection timed out.
+[2024-04-16T17:53:20.345678] my-otel-demo-cartservice - ERROR --: Failed to add item with ID: 67890 to cart. Item out of stock.
+[2024-04-16T17:53:25.456789] my-otel-demo-checkoutservice - ERROR --: Payment failed for user: john@example.com. Insufficient funds.
+[2024-04-16T17:53:30.567890] my-otel-demo-currencyservice - ERROR --: Error converting currency. Exchange rate service unavailable.
+[2024-04-16T17:53:35.678901] my-otel-demo-emailservice - ERROR --: Failed to send order confirmation email to: john@example.com. SMTP server error.
+[2024-04-16T17:53:40.789012] my-otel-demo-flagd - ERROR --: Failed to update feature flag 'new_feature_enabled'. Database connection lost.
+[2024-04-16T17:53:45.890123] my-otel-demo-frontend - ERROR --: Error loading homepage for user: john@example.com. Frontend server crashed.
+[2024-04-16T17:53:50.901234] my-otel-demo-frontendproxy - ERROR --: Unable to reroute traffic. Backend server not responding.
+[2024-04-16T17:54:00.123456] my-otel-demo-jaeger-agent - ERROR --: Jaeger agent stopped unexpectedly. Restarting...
+[2024-04-16T17:54:05.234567] my-otel-demo-jaeger-collector - ERROR --: Error processing traces from my-otel-demo-frontend. Invalid trace format.
+[2024-04-16T17:54:10.345678] my-otel-demo-jaeger-query - ERROR --: Failed to query traces. Database query timeout.
+[2024-04-16T17:54:15.456789] my-otel-demo-kafka - ERROR --: Error consuming message from topic: "user_activity". Kafka broker unreachable.
+[2024-04-16T17:54:25.678901] my-otel-demo-otelcol - ERROR --: OpenTelemetry collector crashed. Restarting...
+[2024-04-16T17:54:35.890123] my-otel-demo-productcatalogservice - ERROR --: Database query failed. Product details unavailable.
+[2024-04-16T17:54:45.012345] my-otel-demo-quoteservice - ERROR --: Failed to generate random quote. External API request failed.
+[2024-04-16T17:54:50.123456] my-otel-demo-recommendationservice - ERROR --: Error retrieving recommendation. Internal server error.
+[2024-04-16T17:54:55.234567] my-otel-demo-redis - ERROR --: Redis server crashed. Data loss possible. Restarting...
+[2024-04-16T17:55:10.567890] otel-demo-opensearch-headless - ERROR --: Search query failed. Elasticsearch query syntax error.
+[2024-04-16T18:21:00.567890] kubernetes - ERROR --: Pod my-otel-demo-cartservice terminated unexpectedly. Disk quota exceeded.
+[2024-04-16T18:21:05.678901] my-otel-demo-adservice - ERROR --: Ad request processing failed. Invalid ad format received.
+[2024-04-16T18:21:10.789012] my-otel-demo-cartservice - ERROR --: Cart item removal failed. Database transaction rollback error.
+[2024-04-16T18:21:15.890123] my-otel-demo-checkoutservice - ERROR --: Payment processing error. Invalid card number format.
+[2024-04-16T18:21:20.901234] my-otel-demo-currencyservice - ERROR --: Currency conversion failure. Unsupported currency pair provided.
+[2024-04-16T18:21:25.012345] my-otel-demo-emailservice - ERROR --: Email delivery failure. Recipient email address invalid.
+[2024-04-16T18:21:30.123456] my-otel-demo-flagd - ERROR --: Feature flag update failure. Flag value validation error.
+[2024-04-16T18:21:35.234567] my-otel-demo-frontend - ERROR --: User authentication error. Invalid credentials provided.
+[2024-04-16T18:21:40.345678] my-otel-demo-frontendproxy - ERROR --: Traffic redirection failure. Load balancer misconfiguration.
+[2024-04-16T18:21:50.567890] my-otel-demo-jaeger-agent - ERROR --: Jaeger agent startup failure. Network port already in use.
+[2024-04-16T18:21:55.678901] my-otel-demo-jaeger-collector - ERROR --: Trace parsing error. Jaeger collector unable to parse trace data.
+[2024-04-16T18:22:00.789012] my-otel-demo-jaeger-query - ERROR --: Traces not found. No matching trace data found in Jaeger database.
+[2024-04-16T18:22:05.890123] my-otel-demo-kafka - ERROR --: Kafka broker failure. Disk write error on broker node.
+[2024-04-16T18:25:00.345678] otel-demo-opensearch - INFO --: Index cleanup initiated. Removing obsolete data from index.
+[2024-04-16T18:25:50.345678] my-otel-demo-adservice - INFO --: Ad request processed successfully. Ad displayed to user.
+[2024-04-16T18:25:55.456789] my-otel-demo-cartservice - INFO --: Cart item added successfully. Item ID: 1234.
+[2024-04-16T18:26:00.567890] my-otel-demo-checkoutservice - INFO --: Order payment received. Transaction ID: 5678.
+[2024-04-16T18:26:05.678901] my-otel-demo-currencyservice - INFO --: Currency conversion successful. Amount: $50 USD converted to €45 EUR.
+[2024-04-16T18:26:10.789012] my-otel-demo-emailservice - INFO --: Order confirmation email sent successfully to: john@example.com.
+[2024-04-16T18:26:15.890123] my-otel-demo-flagd - INFO --: Feature flag updated successfully. Feature toggle enabled for new users.
+[2024-04-16T18:26:20.901234] my-otel-demo-frontend - INFO --: User authentication successful. User logged in.
+[2024-04-16T18:26:25.012345] my-otel-demo-frontendproxy - INFO --: Traffic redirection successful. Redirected traffic from /login to /dashboard.
+[2024-04-16T18:26:30.123456] my-otel-demo-grafana - INFO --: Grafana dashboard loaded successfully.
+[2024-04-16T18:26:35.234567] my-otel-demo-jaeger-agent - INFO --: Jaeger agent started successfully.
+[2024-04-16T18:26:40.345678] my-otel-demo-jaeger-collector - INFO --: Jaeger trace collection initiated.
+[2024-04-16T18:26:45.456789] my-otel-demo-jaeger-query - INFO --: Jaeger trace query successful. Query duration: 10ms.
+[2024-04-16T18:26:50.567890] my-otel-demo-kafka - INFO --: Kafka message published successfully. Topic: orders, Partition: 0.
+[2024-04-16T18:26:55.678901] my-otel-demo-loadgenerator - INFO --: Load generation started successfully.
+[2024-04-16T18:27:00.789012] my-otel-demo-otelcol - INFO --: OpenTelemetry data collection started successfully.
+[2024-04-16T18:27:05.890123] my-otel-demo-paymentservice - INFO --: Payment processed successfully. Order ID: 9876.
+[2024-04-16T18:27:10.901234] my-otel-demo-productcatalogservice - INFO --: Product details retrieved successfully. Product ID: 789.
+[2024-04-16T18:27:15.012345] my-otel-demo-prometheus-server - INFO --: Prometheus metrics scraped successfully.
+[2024-04-16T18:27:20.123456] my-otel-demo-quoteservice - INFO --: Quote generated successfully. Quote ID: Q12345.
+[2024-04-16T18:27:25.234567] my-otel-demo-recommendationservice - INFO --: Recommendation retrieved successfully. Recommended product: Laptop.
+[2024-04-16T18:27:30.345678] my-otel-demo-redis - INFO --: Data cached successfully. Key: user_1234.
+[2024-04-16T18:27:35.456789] my-otel-demo-shippingservice - INFO --: Shipping label printed successfully. Tracking ID: SHP5678.
+[2024-04-16T18:27:40.567890] otel-demo-opensearch - INFO --: OpenSearch index created successfully. Index name: logs-2024-04-16.
+[2024-04-16T18:27:45.678901] otel-demo-opensearch-headless - INFO --: Elasticsearch query executed successfully. Results returned: 100.
+[2024-04-16T18:27:50.789012] kubernetes - INFO --: Pod my-otel-demo-cartservice started successfully.
+[2024-04-16T18:27:55.890123] my-otel-demo-adservice - INFO --: Ad request processed successfully. No ad available for current user.
+[2024-04-16T18:28:00.901234] my-otel-demo-cartservice - INFO --: Cart items retrieved successfully. Total items in cart: 5.
+[2024-04-16T18:28:05.012345] my-otel-demo-checkoutservice - INFO --: Order placed successfully. Order ID: ORD123.
+[2024-04-16T18:28:10.123456] my-otel-demo-currencyservice - INFO --: Currency rates updated successfully.
+[2024-04-16T18:28:15.234567] my-otel-demo-emailservice - INFO --: Order confirmation email sent successfully to: alice@example.com.
+[2024-04-16T18:28:20.345678] my-otel-demo-flagd - INFO --: Feature flag updated successfully. Feature toggle disabled for guest users.
+[2024-04-16T18:28:25.456789] my-otel-demo-frontend - INFO --: User profile updated successfully.
+[2024-04-16T18:28:30.567890] my-otel-demo-frontendproxy - INFO --: SSL certificate renewed successfully.
+[2024-04-16T18:28:35.678901] my-otel-demo-grafana - INFO --: Dashboard settings saved successfully.
+[2024-04-16T18:28:40.789012] my-otel-demo-jaeger-agent - INFO --: Jaeger agent configuration updated successfully.
+[2024-04-16T18:28:45.890123] my-otel-demo-jaeger-collector - INFO --: Jaeger trace collection completed successfully.
+[2024-04-16T18:28:50.901234] my-otel-demo-jaeger-query - INFO --: Jaeger trace query executed successfully.
+[2024-04-16T18:28:55.012345] my-otel-demo-kafka - INFO --: Kafka consumer subscribed successfully. Topic: events.
+[2024-04-16T18:29:00.123456] my-otel-demo-loadgenerator - INFO --: Load generation completed successfully.
+[2024-04-16T17:54:20.567890] my-otel-demo-loadgenerator - WARNING --: Load generation stopped. Server overloaded.
+[2024-04-16T17:54:30.789012] my-otel-demo-paymentservice - WARNING --: Payment processing delayed. Bank server maintenance in progress.
+[2024-04-16T17:54:40.901234] my-otel-demo-prometheus-server - WARNING --: Prometheus server restarted. Configuration update applied.
+[2024-04-16T17:55:00.345678] my-otel-demo-shippingservice - WARNING --: Shipping delayed. Courier service strike ongoing.
+[2024-04-16T17:56:00.567890] my-otel-demo-grafana - WARNING --: Disk usage exceeded 90% on node-1. Disk cleanup initiated.
+[2024-04-16T17:56:25.012345] my-otel-demo-loadgenerator - WARNING --: Load generation stopped. Server overloaded.
+[2024-04-16T18:35:40.345678] my-otel-demo-paymentservice - WARNING --: Payment processing delay. Unexpected response from the bank server.
+[2024-04-16T18:30:15.678901] my-otel-demo-prometheus-server - WARNING --: Prometheus alerting rule triggered. High CPU usage detected.
+[2024-04-16T18:31:10.456789] my-otel-demo-shippingservice - WARNING --: Shipping delayed. High volume of packages.
+[2024-04-16T18:19:40.901234] my-otel-demo-grafana - WARNING --: Grafana alert triggered. High CPU usage detected on node-2.
+[2024-04-16T18:20:05.456789] my-otel-demo-loadgenerator - WARNING --: Load generation halted. Unstable network connection detected.
+[2024-04-16T18:20:15.678901] my-otel-demo-paymentservice - WARNING --: Payment processing delay. Bank API rate limit exceeded.
+[2024-04-16T18:20:25.890123] my-otel-demo-prometheus-server - WARNING --: Prometheus scraping error. Target service unavailable for scraping.
+[2024-04-16T18:20:45.234567] my-otel-demo-shippingservice - WARNING --: Shipping label generation failed. Incorrect package dimensions provided.
+[2024-04-16T18:21:45.456789] my-otel-demo-grafana - WARNING --: Grafana dashboard refresh error. Data source connection timeout.
+[2024-04-16T18:22:10.901234] my-otel-demo-loadgenerator - WARNING --: Load generation paused. Unresponsive load generation service detected.
+[2024-04-16T18:22:20.123456] my-otel-demo-paymentservice - WARNING --: Payment processing delay. Third-party payment gateway connection timeout.
+[2024-04-16T18:22:50.789012] my-otel-demo-shippingservice - WARNING --: Shipping label printing failed. Printer out of paper.
+[2024-04-16T18:23:50.901234] my-otel-demo-grafana - WARNING --: Grafana alert triggered. High memory usage detected on node-3.
+[2024-04-16T18:24:15.456789] my-otel-demo-loadgenerator - WARNING --: Load generation paused. Unexpected spike in CPU usage observed.
+[2024-04-16T18:24:25.678901] my-otel-demo-paymentservice - WARNING --: Payment processing delay. Bank API connection error.
+[2024-04-16T18:24:35.890123] my-otel-demo-prometheus-server - WARNING --: Prometheus scraping failed. Target service returned HTTP 503.
+[2024-04-16T18:24:55.234567] my-otel-demo-shippingservice - WARNING --: Shipping label printing failed. Printer connection error.
+[2024-04-16T18:17:35.456789] my-otel-demo-grafana - WARNING --: Grafana dashboard inaccessible. SSL certificate expired.
+[2024-04-16T18:18:00.901234] my-otel-demo-loadgenerator - WARNING --: Load generation stopped. Unanticipated network latency observed.
+[2024-04-16T18:18:10.123456] my-otel-demo-paymentservice - WARNING --: Payment processing delayed. Suspicious transaction patterns detected.
+[2024-04-16T18:18:20.345678] my-otel-demo-prometheus-server - WARNING --: Prometheus scraping failed. Target service returned unexpected response.
+[2024-04-16T18:27:00.890123] my-otel-demo-shippingservice - WARNING --: Shipping label generation failed. Unable to retrieve package weight information.
