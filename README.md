@@ -1,5 +1,5 @@
 # LLM4Kube
-Code for CSCE 670 project LLM4Kube
+Code for CSCE 670 project LLM4Kube (https://viveklol.github.io/LLM4Kube/)
 
 ## Setup of Kubernetes and Open Telemetry Application.
 Follow the official Open Telemetry Demo to setup a mock application on your local machine: https://opentelemetry.io/docs/demo/architecture/
